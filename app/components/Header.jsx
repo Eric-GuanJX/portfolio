@@ -13,7 +13,7 @@ const Header = () => {
          className='w-6'/>
         </h3>
         <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            Back-end web developer based in Hong Kong.</h1>
+            back-end web developer based in Hong Kong.</h1>
             <p className='max-w-2xl mx-auto font-Ovo'>
                 Keep leanning, starting from 0.
             </p>
