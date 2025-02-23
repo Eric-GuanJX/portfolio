@@ -9,6 +9,8 @@ import vscode from './vscode.png';
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
+import postman from './postman.svg';
+import idea from './ijidea.png'
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.jpg';
@@ -36,6 +38,7 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
+
 export const assets = {
     user_image,
     code_icon,
@@ -45,6 +48,8 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
+    idea,
+    postman,
     firebase,
     figma,
     git,
@@ -78,40 +83,35 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Online Baking Blog',
+        description: 'Web Application',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'eCommerce System',
+        description: 'Web Application',
         bgImage: '/work-3.png',
     },
-    // {
-    //     title: 'UI/UX designing',
-    //     description: 'UI/UX Design',
-    //     bgImage: '/work-4.png',
-    // },
+    {
+        title: 'UI/UX designing',
+        description: 'UI/UX Design',
+        bgImage: '/work-4.png',
+    },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Frontend Development', description: 'Building responsive and interactive web applications using Vue.js, React, Next.js to ensure seamless user experience.', link: '' },
+    { icon: assets.mobile_icon, title: 'Backend Development', description: 'Engineered backend logic using Spring Boot, MySQL and MyBatis, ensuring smooth handing of data management', link: '' },
+    { icon: assets.ui_icon, title: 'API Development & Integration', description: 'Creating and integrating RESTful APIs to enable smooth data communication between systems, ensuring high performance and security.', link: '' },
+    { icon: assets.graphics_icon, title: 'Authentication & Security', description: 'Implementing secure authentication using Spring Security JWT, and Firebase Auth, ensuring data protection and user privacy.', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Master of Science in Information Technology Management' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Java, Spring Boot,HTML, CSS, JavaScript, Vue Js, React, Next Js, Python' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Developed multiple web applications with modern tech stack | Specializing in backend & full-stack development' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.idea, assets.postman, assets.mongodb, assets.figma, assets.git
 ];

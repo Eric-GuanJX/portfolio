@@ -13,11 +13,7 @@ const About = ({isDarkMode}) => {
             <Image src={assets.user_image} alt='user' className='w-full rounded-3xl'/>
         </div>
         <div className='flex-1'>
-            <p className='mb-10 max-w-2xl font-Ovo'>
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </p>
+            <p className='mb-10 max-w-2xl font-Ovo'>I am a web developer with a background in Computer Science and Information Technology Management. I specialize in building scalable and efficient web applications, focusing on clean code, performance optimization, and user experience. Skilled in both front-end and back-end technologies, I am always eager to learn and apply new solutions.</p>
 
             <ul className=' grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                 {infoList.map(({icon, iconDark, title, description},index)=>(
