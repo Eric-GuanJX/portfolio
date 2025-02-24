@@ -84,18 +84,21 @@ export const assets = {
 export const workData = [
     {
         title: 'Online Baking Blog',
-        description: 'Web Application',
+        description: 'Web Application using Spring Boot and Vue.js',
         bgImage: '/work-1.png',
+        github: 'https://github.com/Eric-GuanJX/baking',
     },
     {
         title: 'eCommerce System',
-        description: 'Web Application',
+        description: 'Web Application using Spring Boot and React',
         bgImage: '/work-3.png',
+        github: 'https://github.com/Eric-GuanJX/sb-ecom',
     },
     {
         title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        description: 'Using Figma for UI/UX Design',
         bgImage: '/work-4.png',
+        github: '/SCSG.pdf'
     },
 ]
 
