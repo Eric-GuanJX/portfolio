@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import { FaPhoneAlt,FaMailBulk } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
+import Link from 'next/link';
 
 const Contact = () => {
 
@@ -63,12 +64,12 @@ const Contact = () => {
   {/* </Link> */}
 
   {/* LinkedIn */}
-  {/* <Link href="" target="_blank" rel="noopener noreferrer"> */}
+  <Link href="https://www.linkedin.com/in/jianxiguan/" target="_blank" rel="noopener noreferrer">
     <div className="flex items-center gap-2 cursor-pointer hover:text-blue-500 transition">
       <AiFillLinkedin className="text-blue-700 dark:text-blue-400 text-xl" />
       <span className="text-gray-700 dark:text-white">LinkedIn Profile</span>
     </div>
-  {/* </Link> */}
+  </Link>
 
   {/* phone */}
   <div className="flex items-center gap-2">
