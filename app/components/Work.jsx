@@ -4,11 +4,15 @@ import { BsGithub } from 'react-icons/bs';
 import { CgWebsite } from 'react-icons/cg';
 import { FaFilePdf } from "react-icons/fa";
 import Link from 'next/link';
+import Swal from 'sweetalert2';
 
 const Work = () => {
 
   const toCons = () => {
-    alert("Trying to figure out :)")
+    Swal.fire({
+      title: "Eric here :)",
+      text: "I am trying to figure out.",
+    })
   }
 
   return (
