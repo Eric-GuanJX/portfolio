@@ -6,9 +6,9 @@ import { MdSecurity } from "react-icons/md";
 
 export const serviceData = [
     { icon: <TbWorld className="text-4xl text-gray-700 dark:text-white" />, title: 'Frontend Development', description: 'Building responsive and interactive web applications using Vue.js, React, Next.js to ensure seamless user experience.', link: '' },
-    { icon: <RiStackFill className="text-4xl text-gray-700 dark:text-white" />, title: 'Backend Development', description: 'Engineered backend logic using Spring Boot, MySQL and MyBatis, ensuring smooth handing of data management.', link: '' },
+    { icon: <RiStackFill className="text-4xl text-gray-700 dark:text-white" />, title: 'Backend Development', description: 'Engineered backend logic using Spring Boot, MySQL,Hibernate and MyBatis, ensuring smooth handing of data management.', link: '' },
     { icon: <AiOutlineApi className="text-4xl text-gray-700 dark:text-white" />, title: 'API Development & Integration', description: 'Creating and integrating RESTful APIs to enable smooth data communication between systems, ensuring high performance and security.', link: '' },
-    { icon: <MdSecurity className="text-4xl text-gray-700 dark:text-white" />, title: 'Authentication & Security', description: 'Implementing secure authentication using Spring Security JWT, and Firebase Auth, ensuring data protection and user privacy.', link: '' },
+    { icon: <MdSecurity className="text-4xl text-gray-700 dark:text-white" />, title: 'Authentication & Security', description: 'Implementing secure authentication using Spring Security, JWT, and Firebase Auth, ensuring data protection and user privacy.', link: '' },
 ];
 
 const Services = ({ }) => {
