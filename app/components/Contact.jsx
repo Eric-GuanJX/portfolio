@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import { FaPhoneAlt,FaMailBulk } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
+import { FaWhatsapp } from "react-icons/fa";
 import Link from 'next/link';
 
 const Contact = () => {
@@ -73,7 +74,7 @@ const Contact = () => {
 
   {/* phone */}
   <div className="flex items-center gap-2">
-    <FaPhoneAlt className="text-green-600 text-lg" />
+    <FaWhatsapp className="text-green-600 text-lg" />
     <span className="text-gray-700 dark:text-white">+852 6093 5386</span>
   </div>
 </div>
